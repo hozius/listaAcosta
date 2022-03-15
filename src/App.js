@@ -40,12 +40,12 @@ const App = () => {
   }
 
   return (
-    <SafeAreaView style={{ ...backgroundStyle, height: '85%' }}>
+    <SafeAreaView style={{ ...backgroundStyle, height: '80%', marginTop:20 }}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ListScreen
         style={backgroundStyle}
         functions={itemsFunctions}
-        nameList={'Lista de items'}
+        nameList={'TP1 Lista optimizada'}
         dataList={data}
       />
     </SafeAreaView>

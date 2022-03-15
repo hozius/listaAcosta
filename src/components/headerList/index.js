@@ -22,8 +22,9 @@ const HeaderList = (props) => {
         <TouchableOpacity
           style={listStyle.buttonStyle}
           onPress={() => {
-            setTextValue('')
-            functions.addItem({ id: idrandom, title: textValue })
+            setTextValue('');
+            if(textValue != '') 
+              functions.addItem({ id: idrandom, title: textValue });
           }}
         >
           <Text style={listStyle.textButtonStyle}>+</Text>

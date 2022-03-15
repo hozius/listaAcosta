@@ -21,8 +21,8 @@ export const listStyle = StyleSheet.create({
   buttonStyle: {
     width: '20%',
     height: 60,
-    backgroundColor: 'green',
-    marginHorizontal: '2%',
+    backgroundColor: 'gray',
+    marginHorizontal: '1%',
     borderRadius: 100,
     justifyContent: 'center',
     alignItems: 'center',
@@ -32,9 +32,10 @@ export const listStyle = StyleSheet.create({
     color: 'white',
   },
   textHeaderStyle: {
-    fontSize: 16,
+    fontSize: 24,
     color: 'black',
     paddingVertical: 5,
     alignSelf: 'center',
+    fontWeight: 'bold'
   },
 })

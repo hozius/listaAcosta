@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 export const listItemStyles = StyleSheet.create({
   item: {
     height: 80,
-    backgroundColor: 'lightblue',
+    backgroundColor: '#21212121',
     marginVertical: '3%',
     marginHorizontal: '5%',
     flexDirection: 'row',

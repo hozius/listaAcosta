@@ -13,7 +13,7 @@ const ListItem = ({ functions, title, id }) => {
           functions.deleteItem(id)
         }}
       >
-        <Text>Borrar</Text>
+        <Text style={{fontSize:24,fontWeight:'bold'}}>X</Text>
       </TouchableOpacity>
     </View>
   )
